@@ -1,6 +1,6 @@
 console.log("2">1);
 //before comparing you should always ensure the datatypes of the both should be the same
-console.log(null==0);
+console.log(null==0);//Rule: null is only equal to undefined, not to numbers.
 console.log(null>=0);
 console.log(null<=0);
 console.log(null<0);

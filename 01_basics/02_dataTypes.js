@@ -19,3 +19,4 @@ let state=null
 //object--.important
 
 console.log(typeof null) //type of null is object
+console.log(typeof undefined)//type of undefined is undefined

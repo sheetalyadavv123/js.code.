@@ -1,5 +1,5 @@
 let score="67abc" //if score=null the result will be zero and if score=undefined the result will be NaN
-//if score=true the output will be 1 and if it is false then output will be 1
+//if score=true the output will be 1 and if it is false then output will be 0
 // console.log(typeof score);
 
 let valueInNumber= Number(score) //we are converting the string in number and the first letter of every datatype in js should be capital
@@ -44,6 +44,7 @@ let str3=str1 + str2
 
 console.log(+true); //true+ is not possible it will trow an error
 console.log(+"");//output=0
+//When you put a + before a value, JavaScript tries to convert it into a number.
 
 let gameCounter=39
 gameCounter++;//it will give the same output for ++gameCounter
