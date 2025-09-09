@@ -38,10 +38,30 @@ const users=[
 ]
 
 // users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));//the result will be in the array//[ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));//every key value pair will be in the different arrays and all these arrays will be in on array//[ [ 'id', 'fsjsk' ], [ 'name', 'geetika' ], [ 'isLoggedIn', false ] ]
+// console.log(Object.keys(tinderUser));//the result will be in the array//[ 'id', 'name', 'isLoggedIn' ]
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));//every key value pair will be in the different arrays and all these arrays will be in on array//[ [ 'id', 'fsjsk' ], [ 'name', 'geetika' ], [ 'isLoggedIn', false ] ]
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+//de-structuring
+const course={
+    courseName:"js course",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+
+//course.courseInstructor
+
+const {courseInstructor:teacher}=course//now we dont have to write course.coureInstructor again and again 
+console.log(teacher);//whenever you see {courseInstructor:teacher} this type of curly braces then know that is is de structured
+
+
+//JSON
+// {
+//     "name":"hitesh",
+//     "coursename":"js",
+//     "price":"free"
+// }
